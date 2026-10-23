@@ -16784,7 +16784,7 @@ colorButton.Activated:Connect(function()
 local old = RightList:FindFirstChild("DB_WallpaperColorPopup")
 if old then old:Destroy(); return end
 local popup = Instance.new("Frame")
-popup.Name = "DB_WallpaperColorPopup"
+popup.Name = "榆_WallpaperColorPopup"
 popup.AnchorPoint = Vector2.new(0.5,0.5)
 popup.Position = UDim2.fromScale(0.5,0.52)
 popup.Size = UDim2.new(0.86,0,0,218)
@@ -16968,7 +16968,7 @@ local DBTitle = (function()
             Line2 = cfg.Line2,
             Text = cfg.Line1 .. "\n" .. cfg.Line2,
             ColorMode = cfg.ColorMode,
-            Source = "DB",
+            Source = "榆",
             Kind = "Overhead",
         }
     end
@@ -18565,15 +18565,16 @@ local DB_LATEST_ANNOUNCEMENT = [==[
   也可以输入壁纸链接进行自定义
   功能栏重新分三行 第一行玩家信息 第二行功能显示 第三行功能选择
 2.功能更改:
-  DB AI和紧急关停全部删除
+  榆 AI和紧急关停全部删除
   服务器脚本归为一类（脚本合集）
   大肥鱼通用功能持续更新中
   主页好友在线显示删除
 
-永不跑路的脚本
+跑路的脚本
 您的最佳选择
 作者:大肥鱼
-主编写:大肥鱼
+作者:榆
+作者ROB
 
 3.大肥鱼通用更新:
   新增内置自瞄 距离/FOV/部位/可见性可调
